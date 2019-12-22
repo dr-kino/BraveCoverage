@@ -23,3 +23,9 @@ make lcov
 # Test Results
 
 
+# Code/Test Coverage Results
+
+![Screenshot from 2019-12-22 17-25-21](https://user-images.githubusercontent.com/27175864/71325145-91772400-24e0-11ea-918b-2b5711ba4f36.png)
+
+![Screenshot from 2019-12-22 17-26-01](https://user-images.githubusercontent.com/27175864/71325163-d26f3880-24e0-11ea-8a18-25dc94d9a153.png)
+
