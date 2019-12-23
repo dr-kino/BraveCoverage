@@ -56,10 +56,6 @@ add_custom_command(TARGET gcov
     COMMAND echo "-- Source diretorie: ${CMAKE_SOURCE_DIR}/src/"
     COMMAND echo "-- Coverage files have been output to ${CMAKE_BINARY_DIR}/gcoverage"
     WORKING_DIRECTORY ${CMAKE_BINARY_DIR}/gcoverage
-    COMMAND echo "-- Passing lcov tool under code coverage"
-    COMMAND lcov --capture --directory ../ --output-file main_coverage.info
-    COMMAND echo "-- Generating HTML output files"
-    COMMAND genhtml main_coverage.info --output-directory out
     )
 add_dependencies(gcov TestBraveCoverage)
 
