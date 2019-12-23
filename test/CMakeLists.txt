@@ -28,8 +28,6 @@ message("-- Object files will be output to: ${OBJECT_DIR}")
 # Find required packages
 find_package(GTest REQUIRED)
 include_directories(${GTEST_INCLUDE_DIRS})
-find_package(Boost REQUIRED COMPONENTS program_options)
-include_directories(${Boost_INCLUDE_DIR})
 
 # Set the sources
 set(sources
@@ -95,7 +93,6 @@ enable_testing()
 add_test(output_test ${CMAKE_CURRENT_BINARY_DIR}/TestBraveCoverage)
 
 # link Boost libraries to the new target
-target_link_libraries(TestBraveCoverage ${Boost_LIBRARIES})
 target_link_libraries(TestBraveCoverage gtest)
 target_link_libraries(TestBraveCoverage gmock)
 target_link_libraries(TestBraveCoverage pthread)
