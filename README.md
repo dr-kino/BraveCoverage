@@ -72,12 +72,12 @@ we will get log information:
 
 ```console
    Scanning dependencies of target gmock
-    [ 14%] Building CXX object CMakeFiles/gmock.dir/home/thaohm2/FPT/Softs/GoogleTest/googletest/src/gtest-all.cc.o
+    [ 14%] Building CXX object CMakeFiles/gmock.dir/home/xpto/FPT/Softs/GoogleTest/googletest/src/gtest-all.cc.o
     [ 28%] Building CXX object CMakeFiles/gmock.dir/src/gmock-all.cc.o
     Linking CXX static library libgmock.a
     [ 28%] Built target gmock
     Scanning dependencies of target gmock_main
-    [ 42%] Building CXX object CMakeFiles/gmock_main.dir/home/thaohm2/FPT/Softs/GoogleTest/googletest/src/gtest-all.cc.o
+    [ 42%] Building CXX object CMakeFiles/gmock_main.dir/home/xpto/FPT/Softs/GoogleTest/googletest/src/gtest-all.cc.o
     [ 57%] Building CXX object CMakeFiles/gmock_main.dir/src/gmock-all.cc.o
     [ 71%] Building CXX object CMakeFiles/gmock_main.dir/src/gmock_main.cc.o
     Linking CXX static library libgmock_main.a
@@ -99,8 +99,8 @@ libgmock.a  libgmock_main.a  libgtest.a  libgtest_main.a
 
     sudo cp gtest/*.a /usr/lib
 
-And copy necessary libraries of gmock and gtest to /usr/include
+    And copy necessary libraries of gmock and gtest to /usr/include
 
-sudo cp -r include/gmock /usr/include/
+    sudo cp -r include/gmock /usr/include/
 
-sudo cp -r ../googletest/include/gtest/ /usr/include/
+    sudo cp -r ../googletest/include/gtest/ /usr/include/
