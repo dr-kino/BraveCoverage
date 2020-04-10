@@ -70,6 +70,7 @@ make lcov
 
 we will get log information:
 
+```console
    Scanning dependencies of target gmock
     [ 14%] Building CXX object CMakeFiles/gmock.dir/home/thaohm2/FPT/Softs/GoogleTest/googletest/src/gtest-all.cc.o
     [ 28%] Building CXX object CMakeFiles/gmock.dir/src/gmock-all.cc.o
@@ -91,7 +92,7 @@ we will get log information:
     [100%] Built target gtest_main
 Four static libraries are generate:
 libgmock.a  libgmock_main.a  libgtest.a  libgtest_main.a
-
+```
     We need to copy all *.a files to /usr/lib:
 
     sudo cp *.a /usr/lib
