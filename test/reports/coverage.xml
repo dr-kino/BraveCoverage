@@ -1,0 +1,59 @@
+<?xml version="1.0" ?>
+<!DOCTYPE coverage
+  SYSTEM 'http://cobertura.sourceforge.net/xml/coverage-04.dtd'>
+<coverage branch-rate="0.375" branches-covered="12" branches-valid="32" complexity="0.0" line-rate="1.0" lines-covered="10" lines-valid="10" timestamp="1612618360" version="gcovr 3.4">
+<sources>
+<source>.</source>
+</sources>
+<packages>
+<package branch-rate="0.375" complexity="0.0" line-rate="1.0" name="src">
+<classes>
+<class branch-rate="0.357142857143" complexity="0.0" filename="src/test_brave_coverage.cpp" line-rate="1.0" name="test_brave_coverage_cpp">
+<methods/>
+<lines>
+<line branch="true" condition-coverage="50% (3/6)" hits="5" number="4">
+<conditions>
+<condition coverage="50%" number="0" type="jump"/>
+</conditions>
+</line>
+<line branch="false" hits="2" number="5"/>
+<line branch="true" condition-coverage="50% (1/2)" hits="1" number="6">
+<conditions>
+<condition coverage="50%" number="0" type="jump"/>
+</conditions>
+</line>
+<line branch="true" condition-coverage="50% (1/2)" hits="1" number="7">
+<conditions>
+<condition coverage="50%" number="0" type="jump"/>
+</conditions>
+</line>
+<line branch="true" condition-coverage="21% (3/14)" hits="1" number="9">
+<conditions>
+<condition coverage="21%" number="0" type="jump"/>
+</conditions>
+</line>
+<line branch="true" condition-coverage="50% (2/4)" hits="4" number="10">
+<conditions>
+<condition coverage="50%" number="0" type="jump"/>
+</conditions>
+</line>
+</lines>
+</class>
+<class branch-rate="0.5" complexity="0.0" filename="src/test_main.cpp" line-rate="1.0" name="test_main_cpp">
+<methods/>
+<lines>
+<line branch="false" hits="1" number="3"/>
+<line branch="false" hits="1" number="4"/>
+<line branch="false" hits="1" number="5"/>
+<line branch="true" condition-coverage="50% (2/4)" hits="3" number="6">
+<conditions>
+<condition coverage="50%" number="0" type="jump"/>
+</conditions>
+</line>
+</lines>
+</class>
+</classes>
+</package>
+</packages>
+</coverage>
+
