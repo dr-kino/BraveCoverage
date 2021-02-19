@@ -62,8 +62,6 @@ make lcov
 
     Build master Gtest project by Cmake:
 
-    cd GoogleTest/googlemock
-
     sudo cmake CMakeLists.txt
 
     sudo make
