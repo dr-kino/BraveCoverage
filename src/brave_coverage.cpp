@@ -11,3 +11,4 @@ void Sum::setBValue(int B) {
 int Sum::executeSum(void) {
     return _A + _B;
 }
+
