@@ -103,4 +103,3 @@ libgmock.a  libgmock_main.a  libgtest.a  libgtest_main.a
 
     sudo cp -r ../googletest/include/gtest/ /usr/include/
 
-
