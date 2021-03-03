@@ -8,3 +8,4 @@ TEST(BraveCoverage, TestCaseOne) {
 
     EXPECT_EQ(20, SumUnderTest.executeSum());
 }
+
